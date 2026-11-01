@@ -1,0 +1,35 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+**/target/
+
+# Vue / Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# 日志
+*.log
+logs/
+
+# 本地环境变量
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Spring Boot 本地私密配置
+**/application-local.yml
+**/application-local.yaml
+**/application-secret.yml
+**/application-secret.yaml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# MinIO 本地存储数据
+minio-data/
